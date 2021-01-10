@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="asset/favicon.ico" />
+    <title>game cv Vincent </title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrap_canvas">
+            <canvas id="canvas" width="1200" height="800"> </canvas>  
+        <div id="gameover"> Game Over !</div>
+            <div class="link">
+                <a href="index.html">Retour a l'accueil</a>
+                <a href="asset/Vincent.Wong.developpeur.FullstackJs.pdf" target="_blank">Afficher le CV en PDF</a>
+               <p id="screen"> Si tu ne vois pas luigi <button id="bouton_screen" >Cliquer ici </button> </p> 
+               <p id="scroll">Scroll vers le bas </p>
+            </div>
+
+
+        </div>
+        <div class="wrap_cv">
+
+            <h1>Bienvenue chez luigi</h1>
+            <h3>Prenez un max d'etoile pour que luigi gagne en compétence</h3>
+            <div class="bouton">
+                <button id="reset">Reset game</button>
+                <button id="music"> Couper la musique </button>
+            </div>
+            <div class="cv">
+                <img src="asset/cv.png" alt="cv">
+                <a class="lien-cv" href="asset/Vincent.Wong.developpeur.FullstackJs.pdf" target="_blank"> Ici le
+                    raccourci pour le CV</a>
+            </div>
+            <div class="stack">
+                <div id="html"><img src="asset/html.png" alt="html"> Html pour l'architecture</div>
+                <div id="css"><img src="asset/css.png" alt="css"> Css pour le Style</div>
+                <div id="javascript"><img src="asset/javascript.png" alt=""> Javascript pour le dynamisme</div>
+                <div id="jquery"><img src="asset/jquery.png" alt="jquery"> jQuery une bibliothèque javaScript</div>
+                <div id="angular"><img src="asset/angular.png" alt="angular"> Angular un framework javascript</div>
+                <div id="mongo"><img src="asset/mongo.png" alt="mongo"> MongoDB pour la base de données</div>
+                <div id="vue"><img src="asset/vue.png" alt="vue"> VueJs un autre framework javaScript</div>
+                <div id="node"><img src="asset/node.png" alt="node"> Node pour le serveur </div>
+                <div id="bootstrap"><img src="asset/bootstrap.png" alt="bootstrap"> Bootstrap une bibliothèque Css</div>
+                <div id="wordpress"><img src="asset/wordpress.png" alt="wordpress"> wordpress le Cms le plus utilisé au
+                    monde</div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="game.js"></script>
+</body>
+
+</html>

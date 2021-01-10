@@ -1,0 +1,127 @@
+html {
+    font-family: sans-serif;
+
+}
+body {
+    overflow-x: hidden;
+    overflow-y: hidden; 
+   
+}
+#luigi {
+    position: absolute;
+}
+
+canvas {
+    border: 3px solid black;
+    position: relative;
+    filter: blur(1rem);
+}
+
+button {
+ 
+    color: red;
+    
+}
+#gameover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 300px;
+    height: 100px;
+    z-index: 3;
+    text-align: center;
+    margin: 350px 450px;
+}
+.cv a{
+   
+    border: 1px solid green;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 10px;
+    color:green;
+    transition: 0.9s;
+}
+.cv a:hover  {
+    color: white;
+    background-color: #15CC16;
+}
+.wrap_cv {
+    margin: 10px auto;
+   
+}
+.container{
+    display: flex;
+   
+}
+img{
+    width: 45px;
+    margin-right: 10px;
+}
+#html:hover{ /* a mettre en javascript */
+
+    opacity: 0.1;
+    transition: 1.5s;
+}
+.stack div, .cv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    vertical-align: baseline;
+    margin: 10px 10px 0;
+}
+.stack div{
+    opacity: 0;
+}
+#bootstrap img{
+    width: 35px;
+}
+/* #node img{
+    width: 50px;
+} */
+h1,H3{
+    text-align: center;
+}
+.cv{
+    margin: 20px auto;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.bouton{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap_canvas{
+    position: relative;
+}
+.link{
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+margin: 20px ;
+
+}
+.link a{
+    text-decoration: none;
+    padding: 5px;
+    margin: auto 5px;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: black;
+}
+.link a:hover{
+    background-color: #0EA00D;
+    color: #33CFDF;
+}
+#screen{
+    display: none;
+}
+#scroll{
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
